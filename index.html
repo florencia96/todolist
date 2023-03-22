@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <label for="nueva-tarea">Agregar Tarea</label><input id="nueva-tarea" type="text"><button>Agregar</button>
+        </p>
+
+        <h3>Tareas pendientes</h3>
+        <ul id="tareas-incompletas">
+            <li><input type="checkbox"><label>Sacar al perro</label><input type="text"><button class="editar">editar</button><button class="borrar">borrar</button></li>
+        </ul>
+
+        <h3>Tareas completas</h3>
+        <ul id="tareas-completas">
+            <li><input type="checkbox" checked><label>Ir a la universidad</label><input type="text"><button class="editar">editar</button><button class="borrar">borrar</button></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
+
+</html>
